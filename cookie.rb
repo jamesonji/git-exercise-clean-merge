@@ -4,6 +4,7 @@ class Cookie
 
   def initialize(sugar, flour)
     @sugar, @flour = sugar, flour
+    puts(@sugar, @flour)
   end
 
 end
